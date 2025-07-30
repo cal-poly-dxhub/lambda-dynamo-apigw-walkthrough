@@ -1,0 +1,13 @@
+This is a walkthrough of creating a Lambda function that writes to a DynamoDB table, then invoking that lambda function from a newly created REST API in API Gateway.
+
+Here is a website to test the API: https://reqbin.com/
+
+Here is some sample data to POST to the API:
+
+```
+{
+  "id": "1232134",
+  "name": "Alice",
+  "age": 30
+}
+```
